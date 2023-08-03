@@ -41,6 +41,8 @@
 .post .middle{
   display:flex;
   align-items: center;
+  width : 100%;
+  height : 400px;
 }
 .post .middle img {
   width: 100%;

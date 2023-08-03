@@ -63,6 +63,7 @@ function Newposts() {
           placeholder="No file choosen"
           onChange={inputFunc}
           value={PostImage.name}
+         
           // readOnly
         style={{width:"70%",marginRight:"10px"}}></input>
         <button className="labelbtn" onClick={inputFunc}>

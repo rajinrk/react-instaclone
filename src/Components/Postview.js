@@ -36,7 +36,7 @@ const Postview = () => {
             </div>
           </div>
           <div className="middle">
-            <img  src={`https://rajin-instaclone.onrender.com/${post.PostImage}`} height="auto"alt="Post_pictures" />
+            <img  src={`https://rajin-instaclone.onrender.com/${post.PostImage}`} alt="Post_pictures" />
           </div>
           <div className="bottom">
             <div className="post-footer">
