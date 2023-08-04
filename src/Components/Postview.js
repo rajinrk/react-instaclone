@@ -14,6 +14,7 @@ const Postview = () => {
       .then((resp) => {
         console.log(resp);
         setView(resp.Message);
+        console.log(resp.Message)
       })
       .catch((error) => {
         console.error("Error fetching data:", error);
@@ -50,8 +51,8 @@ const Postview = () => {
               <div className="right">
                 <span>{post.Date}</span>
               </div>
-            </div>
-            <p>{post.description}</p>
+            </div >
+            <p >{post.description}</p>
           </div>
         </div>
       ))}

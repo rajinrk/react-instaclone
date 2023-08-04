@@ -66,8 +66,8 @@ function Newposts() {
          
           // readOnly
         style={{width:"70%",marginRight:"10px"}}></input>
-        <button className="labelbtn" onClick={inputFunc}>
-          <label htmlFor="fileInput">Browse</label>
+        <button htmlFor="fileInput" className="labelbtn" onClick={inputFunc}>
+          Browse
         </button>
         <input
           type="text"
