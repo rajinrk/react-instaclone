@@ -10,11 +10,9 @@ const Postview = () => {
 
   useEffect(() => {
     fetch("https://rajin-instaclone.onrender.com/post")
-      .then((result) => result.json())
+      .then((result) =>  result.json() )
       .then((resp) => {
-        console.log(resp);
-        setView(resp.Message);
-        console.log(resp.Message)
+        setView(resp.Message)
       })
       .catch((error) => {
         console.error("Error fetching data:", error);
