@@ -41,7 +41,8 @@ function Newposts() {
       // alert("Image Uploaded Successfully");
       navigate("/postview");
     } catch (error) {
-      alert("Failed to upload image",error);
+      alert("Failed to upload image");
+      console.log(error)
     }
   };
 
